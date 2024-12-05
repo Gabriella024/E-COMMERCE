@@ -1,0 +1,82 @@
+body {
+    background-image: url(/image/fondo.png);
+}
+
+.navbarPreview {
+    background-color: #240000;
+}
+
+@font-face {
+    font-family: "Knewave";
+    src: url(/FontFamily/Knewave/Knewave-Regular.ttf);
+}
+
+@font-face {
+    font-family: "PoppinsItalic";
+    src: url(/FontFamily/Poppins/Poppins-BlackItalic.ttf);
+}
+
+@font-face {
+    font-family: "Poppins";
+    src: url(/FontFamily/Poppins/Poppins-Black.ttf);
+}
+
+.font-barra  {
+    color: #ffffff;
+    font-family: "Knewave";
+    font-size: 40px;
+    text-shadow: 1px 1px 3px #000000;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    transition: 0.3s ease;
+}
+
+.font-barra:hover {
+    color: #990a0a;
+    text-shadow: 5px 6px 3px #000000;
+}
+
+.codigo {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 22px;
+    font-weight: bolder;
+    display: flex;
+    margin-top: 1rem;
+    justify-content: center;
+}
+
+.titulo {
+    font-family: "PoppinsItalic";
+    font-size: 25px;
+}
+
+.descripcion {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    font-style: italic;
+}
+
+.informacion {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-style: italic;
+}
+
+.img-informacion {
+    filter: brightness(1) invert(1);
+}
+
+.col-md-8 {
+    outline: 2px solid #000;
+    background-color: #240000;
+    color: #ffffff;
+}
+
+.col-md-4 {
+    outline: 2px solid #000;
+}
+
+.cardData {
+    font-size: 15px;
+}

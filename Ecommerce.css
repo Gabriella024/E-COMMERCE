@@ -1,0 +1,169 @@
+@font-face {
+    font-family: 'rumRaisin';
+    src: url(/font/Rum_Raisin/RumRaisin-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Cantora One';
+    src: url(/font/Cantora_One/CantoraOne-Regular.ttf);
+}
+
+.containerProducts {
+    margin: 1rem 1.5rem;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    row-gap: 1rem;
+}
+
+body {
+    background: radial-gradient(circle, #c50303, #430101);
+}
+
+.offcanvas {
+    background: radial-gradient(circle, #f72c2c, #870000);
+}
+
+.offcanvas-title {
+    color: #fff;
+    font-family: 'rumRaisin';
+    font-size: 35px;
+}
+
+.imgShoppingCart {
+    width: 70px;
+}
+
+.navbar {
+    background-color: #240000;
+    border-bottom: 2px solid #3a0000;
+}
+
+.navbar h1 {
+    display: flex;
+    align-items: center;
+    color: #fff;
+    font-size: 30px;
+    gap: 1rem;
+    font-family: 'rumRaisin';
+    text-shadow: 2px 2px 3px #000;
+}
+
+.navbar img {
+    width: 60px;
+    margin-left: 2rem;
+}
+
+.btnShopping {
+    border: none;
+}
+
+.btnShopping .imgShopping {
+    width: 40px;
+    filter: brightness(1) invert(1);
+}
+
+.cantidadDeProductosEnCarrito {
+    color: #fff;
+}
+
+.card {
+    text-align: center;
+    border: none;
+}
+
+.card .imgProducts {
+    width: 260px;
+    height: 350px;
+}
+
+.cardFooter {
+    background-color: #240000;
+}
+
+.cardText {
+    border: 2px solid #240000;
+    background-color: #240000;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    color: #fff;
+}
+
+.cardText {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.cardTitle {
+    font-family: 'Cantora One';
+}
+
+.btnFooter {
+    margin-top: 10px;
+}
+
+.btnAddtoCart {
+    background-color: #420b0b00;
+    border: none;
+    margin-top: 1rem;
+}
+
+.imgAddToCart {
+    transition: 0.3s ease;
+}
+
+.imgAddToCart:hover {
+    transform: scale(1.1);
+}
+
+.productosRow {
+    background-color: #24000081;
+    border-radius: 10px;
+    margin-bottom: 2rem;
+    outline: 3px solid rgb(0, 0, 0);
+}
+
+.cardSCart {
+    background-color: #00000000;
+}
+
+.cardId {
+    background-color: #fff;
+    border-bottom: 3px solid #000;
+    border-top-left-radius: 10px ;
+    border-top-right-radius: 10px ;
+    color: #000;
+    display: flex;
+    font-family: 'Cantora One';
+    font-size: 20px;
+    justify-content: center;
+    margin-bottom: 2px;
+}
+
+.cardTitleCar {
+    color: #fff;
+    font-family: 'rumRaisin';
+}
+
+.priceDollar {
+    color: #fff;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: flex;
+}
+
+.img-fluid {
+    height: 10rem;
+    width: 6.5rem;
+}
+
+.cardFooterShopp {
+    background-color: #fff ;
+    padding-top: 1rem;
+    border-top: 2px solid #000;
+}
+
+.cardFooterShopp .totalPrice {
+    font-size: 18px;
+    margin-left: 1rem;
+    font-family: 'Cantora One';
+}
